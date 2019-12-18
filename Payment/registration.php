@@ -1,8 +1,8 @@
 <?php
 /*
- * @package     Intelipost_Basic
- * @copyright   Copyright (c) 2016 Gamuza Technologies (http://www.gamuza.com.br/)
- * @author      Eneias Ramos de Melo <eneias@gamuza.com.br>
+ * @package     Israel_Payment
+ * @copyright   Copyright (c) 2019 Israel Guidop (http://www.israelguido.com.br/)
+ * @author      Israel Guido <israelguido@gmail.com>
  */
 
 \Magento\Framework\Component\ComponentRegistrar::register(
@@ -10,4 +10,3 @@
     'Israel_Payment',
     __DIR__
 );
-
