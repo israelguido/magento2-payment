@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Payment\Model\CcGenericConfigProvider">
+        <arguments>
+            <argument name="methodCodes" xsi:type="array">
+                <item name="israel_payment" xsi:type="const">Israel\Payment\Model\IsraelPayment::CODE</item>
+                <item name="israel_boleto" xsi:type="const">Israel\Payment\Model\IsraelBoleto::CODE</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <israel_payment>
+                <title>Rael Payment</title>
+                <model>Israel\Payment\Model\IsraelPayment</model>
+                <active>1</active>
+                <cctypes>AE,VI,MC,DI</cctypes>
+            </israel_payment>
+            <israel_boleto>
+                <title>Rael Payment Boleto</title>
+                <model>Israel\Payment\Model\IsraelBoleto</model>
+                <activate_export>1</activate_export>
+                <order_status>pending</order_status>
+                <payment_action>authorize</payment_action>
+                <allowspecific>0</allowspecific>
+                <sort_order>1</sort_order>
+            </israel_boleto>
+        </payment>
+    </default>
+</config>
