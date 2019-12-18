@@ -1,7 +1,7 @@
 <?php
 /*
  * @package     Israel_Payment
- * @copyright   Copyright (c) 2019 Israel Guidop (http://www.israelguido.com.br/)
+ * @copyright   Copyright (c) 2019 Israel Guido (http://www.israelguido.com.br/)
  * @author      Israel Guido <israelguido@gmail.com>
  */
 
